@@ -23,6 +23,7 @@ func handleSum(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, res)
 }
 
+// SumTwoNumbers returns a sum of two integer numbers
 func SumTwoNumbers(a, b int) int {
 	return a + b
 }
