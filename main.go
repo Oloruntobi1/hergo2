@@ -24,6 +24,7 @@ func handleSum(ctx *gin.Context) {
 }
 
 // SumTwoNumbers returns a sum of two integer numbers
+// just more stuff for the sake of demonstrating travis
 func SumTwoNumbers(a, b int) int {
 	return a + b
 }
