@@ -25,5 +25,5 @@ func handleSum(ctx *gin.Context) {
 
 // SumTwoNumbers returns a sum of two integer numbers
 func SumTwoNumbers(a, b int) int {
-	return a + b
+	return a - b
 }
